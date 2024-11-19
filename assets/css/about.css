@@ -1,0 +1,210 @@
+body{
+    height: 100%;
+    width: 100%;
+    min-width: 320px;
+    font-family: "Jost", sans-serif;
+    background-color: #ffffff;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+main.main{
+    flex: 1 1 auto;
+}
+.nav-link{
+    color:#ffffff ;
+    border: none
+}
+.dark {
+    background-color: #232536;
+}
+.good{
+color: #ffffff;
+font-size: 1.5vw;
+}
+.apple{
+    padding-top: 5vh;
+    color: #232536;
+    font-size: 2.7vw;
+    font-weight: 600;
+}
+.good1{
+    font-size: 1vw;
+    color: #4C4C4C;
+}
+.good2{
+    font-size: 1vw;
+    color: #6D6E76;
+}
+.shapka{
+    justify-content: center;
+    gap: 10px;
+    max-height:max-content;
+    display:flex;
+    padding-left: 5vw;
+    background-color: #F4F0F8;
+}
+
+.shop{
+    text-align: center;
+    border: none;
+    left: 6vw;
+    font-size: 1.5vw;;
+    background-color: #FFD050;
+    font-weight: 900;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.img{
+     display: flex;
+}
+
+.close{
+    background-color: #FF4948;
+    border: none;
+}
+
+.gr {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Kar1 opis1"
+      "Kar2 opis2"
+      "Kar3 opis3"
+      "Kar4 opis4"
+      "Kar5 opis5";
+  }
+  
+  .Kar1 { 
+    grid-area: Kar1; 
+    text-align: center;
+    padding-top: 15%;
+}
+  
+  .Kar2 { 
+    grid-area: Kar2;
+    text-align: center;
+    padding-top: 15%;
+ }
+  
+  .Kar3 { 
+    grid-area: Kar3;
+    text-align: center;
+    padding-top: 15%;
+ }
+  
+  .Kar4 { 
+    grid-area: Kar4;
+    text-align: center;
+    padding-top: 15%;
+ }
+  
+  .Kar5 { 
+    grid-area: Kar5;
+    text-align: center;
+    padding-top: 15%;
+ }
+  
+  .opis1 { 
+    grid-area: opis1; 
+    padding-top: 5vh;
+}
+  
+  .opis2 { 
+    grid-area: opis2;
+    padding-top: 5vh;
+ }
+  
+  .opis3 { 
+    grid-area: opis3;
+    padding-top: 5vh;
+ }
+  
+  .opis4 { 
+    grid-area: opis4;
+    padding-top: 5vh;
+ }
+  
+  .opis5 { 
+    grid-area: opis5;
+    padding-top: 5vh;
+ }
+
+.pup {
+    color: #592EA9;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+.Zag {
+    font-weight: 600;
+    font-size: 2.7vw;
+}
+.op {
+    color: #6D6E76;
+    font-size: 1.3vw;
+}
+
+
+
+.img2{
+    margin: 2vw;
+}
+.timg{
+    margin-left: 2vw;
+}
+
+.ourpro{
+    font-size: 3.5vw;
+    text-align: center;
+    margin-top: 20%;
+    font-weight: bold;
+}
+
+.p2p{
+    font-weight: bold;
+}
+.logo {
+    margin-top: 5vh;
+    margin-left: 25vw;
+}
+.container-fluid{
+    color: #000000;
+}
+.navbar-toggler {
+    background-color: white;
+}
+
+.footer-bs {
+    background-color:#232536 ;
+    width: 100%;
+ margin: 0 !important;
+}
+.navbar {
+    background-color: #232536;
+    padding-right: 2vw;
+}
+.footer-brand {
+    color: white;
+}
+.row{ 
+    padding-top: 5vh;
+}
+a, u {
+    text-decoration: none;
+  }
+.footer-nav {
+    padding-left: 10vw;
+}
+.swa {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}

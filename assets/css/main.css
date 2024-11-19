@@ -1,0 +1,290 @@
+body{
+    height: 100%;
+    min-width: 320px;
+    width: 100%;
+    font-family: "Jost", sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+main.main{
+    flex: 1 1 auto;
+}
+.blak {
+    color: black;
+}
+.wh {
+    color: rgb(255, 0, 0);
+}
+.nav-link{
+    color:#ffffff ;
+    border: none
+}
+.good{
+color: #ffffff;
+font-size: 1.5vw;
+}
+.dark {
+    background-color: #232536;
+}
+.apple{
+    color: #ffffff;
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+.good1{
+    font-size: 1vw;
+    color: #ffffff;
+}
+.good2{
+    font-size: 1vw;
+    color: #ffffff;
+}
+.gfg {
+    position: relative;
+    min-width: 375px;
+    width: 100%;
+}
+.shapka{
+    background-image: url(/img/img1.png);
+    background-size: cover;
+    height: 50vw;
+}
+.pos {
+    padding-top: 10vh;
+    padding-left: 2vw;
+}
+.shop{
+    text-align: center;
+    border: none;
+    left: 6vw;
+    font-size: 1.5vw;;
+    background-color: #FFD050;
+    font-weight: 900;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.close{
+    background-color: #FF4948;
+    border: none;
+}
+
+.gr {
+    margin-top: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Area1 Area2"
+        "Area3 Area4"
+        "Area3 Area5"
+        "Area3 Area6"
+        "Area3 Area7";
+}
+
+.Area1 {
+    grid-area: Area1;
+}
+
+.Area2 {
+    grid-area: Area2;
+}
+
+.Area3 {
+    grid-area: Area3;
+    border: 1px solid rgba(175, 175, 175, 0.411);
+}
+
+.Area4 {
+    grid-area: Area4;
+}
+.Area4:hover {
+    background-color: #FF4948;
+}
+.Area5 {
+    grid-area: Area5;
+}
+.Area5:hover {
+    background-color: #FF4948;
+}
+.Area6 {
+    grid-area: Area6;
+}
+.Area6:hover {
+    background-color: #FF4948;
+}
+.Area7 {
+    grid-area: Area7;
+}
+.Area7:hover {
+    background-color: #FF4948;
+}
+
+.ar1{
+    font-size: 2.5vw;
+    font-weight: 900;
+}
+.ar2{
+    font-size: 2.5vw;
+    font-weight: 900;
+    padding-left: 3vw;
+}
+.ar3{
+    margin-top: 2vh;
+    font-size: 1vw;
+}
+.ar3c{
+    padding: 1vw;
+}
+.ar3z{
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+.ar3op{
+    font-size: 0.7vw;
+}
+.ar4{
+    padding-left: 3vw;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+.ar4z{
+    padding-left: 3vw;
+    font-size: 1vw;
+}
+.ar5{
+    padding-left: 3vw;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+.ar5z{
+    padding-left: 3vw;
+    font-size: 1vw;
+}
+.ar6{
+    padding-left: 3vw;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+.ar6z{
+    padding-left: 3vw;
+    font-size: 1vw;
+}
+.ar7{
+    padding-left: 3vw;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+.ar7z{
+    padding-left: 3vw;
+    font-size: 1vw;
+}
+
+.shop2{
+    border: none;
+    margin-top: 3vh;
+    margin-left: -0.5vw;
+    font-size: 1vw;
+}
+
+.shop3{
+    background-color: #FFD050;
+    font-weight: 900;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.okno{
+    color: #FF4948;
+}
+
+
+.img2{
+    margin: 2vw;
+}
+.timg{
+    margin-left: 2vw;
+}
+
+.ourpro{
+    font-size: 3.5vw;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.p2p{
+    font-weight: bold;
+}
+
+.ourpro1{
+    font-size: 3.5vw;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10vh;
+    margin-top: 20vh;
+}
+
+.forma{
+    margin-top: 5%;
+    padding: 5%;
+}
+.become{
+    margin-top: 15%;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    font-size: 5vw;
+}
+.knopfo{
+    background-color: #FF4948;
+    color: #ffffff;
+}
+
+.konez{
+    margin-left: 5vw;
+    margin-top: 15vw;
+    font-size: 2vw;
+}
+
+.logo {
+    margin-top: 5vh;
+    margin-left: 25vw;
+}
+.container-fluid{
+    color: #000000;
+}
+.navbar-toggler {
+    background-color: white;
+}
+.navbar {
+    background-color: #232536;
+    padding-right: 2vw;
+}
+.container-sm {
+    margin-bottom: 10vh;
+}
+.footer-bs {
+ background-color:#232536 ;
+}
+.footer-brand {
+    color: white;
+}
+.row{ 
+    padding-top: 5vh;
+}
+a, u {
+    text-decoration: none;
+  }
+.footer-nav {
+    padding-left: 10vw;
+}
